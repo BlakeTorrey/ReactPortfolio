@@ -9,11 +9,6 @@ function App() {
     <>
       <header className="Header navbar  border-bottom container-fluid">
         <div className="row ">
-          <div className="justify-content-start col Name">
-            <h2 className="headerNames ">
-              Blake <span className='text-primary'>Torrey</span>
-            </h2>
-          </div>
           <div className="col">
             <Nav className="navbar-expand-lg" />
           </div>
@@ -22,10 +17,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <footer>
-        <Footer />
-      </footer>
-
+      <Footer />
     </>
   )
 }

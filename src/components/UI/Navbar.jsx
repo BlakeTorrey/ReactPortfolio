@@ -1,13 +1,19 @@
+
+
 export default function Nav({ links }) {
     return (
-        <nav className="navbar justify-content-end navbar-expand-lg bg-body-tertiary">
+
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <div className="collapse navbar-collapse" id="navbarSupportContent">
-                    <ul className="nav me-auto mb-2 mb-lg-0">
+                <h2 className="navbar-brand">
+                    Blake <span className='text-primary'>Torrey</span>
+                </h2>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ms-auto">
                         {links.map((link) => link)}
                     </ul>
                 </div>
             </div>
         </nav>
-    )
+    );
 }

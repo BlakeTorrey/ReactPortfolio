@@ -1,19 +1,20 @@
 #root {
-  max-width: 1280px;
-  /* margin: 0 auto; */
-  padding: 2rem;
+  
+  max-height: 100%;
   text-align: center;
 }
 
-/* .header {
-background-color: #333;
-color: white;
-display: flex;
-justify-content: space-between;
-align-items: Center;
-gap: 2rem;
-padding: 0 1rem;
-} */
+main {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
 
 .headerName {
   justify-content: start;

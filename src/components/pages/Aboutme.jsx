@@ -2,27 +2,44 @@
 export default function AboutPage() {
 
     return(
-    <div className="container-fluid">
-       <section>
-        <h2>
-            Hi! I'm Blake
-        </h2>
-        <p>
-            I'm a developer based in Salt lake City, Utah. I was originally born in Seattle, WA 
-            but moved to SLC when I attended the University of Utah. I was fortunate enough
-            to earn a B.S. in Chemistry and another in Biology as I figured out what I liked.
-            I job hopped around for a little bit between biology and chemistry opportunities 
-            which ultimately grew a desire to learn more about the systems we used. I only got
-            more and more interested in computer science as time went on before I decided to 
-            learn for myself, and that's how I ended up here. Take a look at the portfolio section 
-            if you want to take a look at some of the things I've worked on.       </p>
-        
-        <aside>
-            <img>
-            </img>
-        </aside>
-        
-       </section>
-    </div>
-);
+        <section className="about-me bg-light py-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-4 text-center mb-4 mb-md-0">
+              <img src={''} alt="Profile" className="img-fluid rounded-circle shadow-sm" style={{ width: "150px", height: "150px" }} />
+            </div>
+            <div className="col-md-8">
+              <h1 className="mb-3">A little about me</h1>
+              <p>
+              Hi! I'm Blake
+              
+              I'm a software developer speciallizing in responsive full-stack development for web applicatoins.
+              </p>
+              <p>
+              My journey started in Salt Lake City, where I originally studied and recieved B.S. degrees in Chemistry and Biology before my attention turned to development. 
+              I hope to continue learning and using new technologies throughout everything I develop.
+              </p>
+              <p>
+              When I'm not developing, I'm found typically doing one of several activities; reading, running, skiing, or taking photos. 
+              Ever since moving out to Salt Lake City, these three hobbies have kept me active and motivated to build meaningful projects
+              that help me learn and meet the needs of others.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row mt-5'>
+            <div className="col-6 text-center">
+                <img src={''} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "200px" }} />
+            </div>
+            <div className="col-6 text-center">
+                <img src={''} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "200px" }} />
+            </div>
+        </div>
+
+      </section>
+
+
+    );
+
 }
