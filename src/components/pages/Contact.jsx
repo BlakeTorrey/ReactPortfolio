@@ -23,7 +23,7 @@ export default function Contact() {
 
 
     return (
-        <section className="contact-form py-5 bg-light min-vh-100">
+        <section className="contact-form py-5 min-vh-100">
             <div className='container justify-content-center align-items-center'>
                 <h2 className="mb-4">Shoot me a message!</h2>
                 <form onSubmit={handleSubmit} className='col-12 col-md-8 mx-auto'>

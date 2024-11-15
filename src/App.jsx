@@ -14,7 +14,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main>
+      <main className ='body'>
         <Outlet />
       </main>
       <Footer />
