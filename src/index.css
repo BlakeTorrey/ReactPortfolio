@@ -3,9 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --primary-color: #104547;
+  --secondary-color: #C3DBC5;
+  --tertiary-color:  #6d64e4;
+  --background-color: #E8DCB9;
+  --text-color:  #4B5358;
+  
   width: 100%;
   height: 100%;
   padding: 0;
@@ -27,7 +30,10 @@
 .navbar {
   width: 100%;
   justify-content: space-between;
+  background-color: var(--tertiary-color);
+  color: var(--text-color)
 }
+
 .Name {
   justify-content: start;
 }
@@ -73,8 +79,21 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--text-color);
+}
 
-@media (prefers-color-scheme: light) {
+.body {
+background-color: var(--background-color);
+color: var(--text-color);
+}
+
+.text-focus {
+  color: var(--text-color);
+}
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -85,4 +104,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
