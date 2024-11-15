@@ -12,7 +12,7 @@ export default function ResumeCard() {
             </header>
 
             <section className="mb-5">
-                <h2 className="h3 text-focus mb-3">About Me</h2>
+                <h2 className="h3 text-highlight mb-3">About Me</h2>
                 <p className="aboutMe">
                     I am a passionate full-stack developer with a strong focus on creating scalable and user-friendly web applications. My main
                     area of focus is back-end development but I have learned a substational amount of front-end as well. I thrive in collaborative and
@@ -21,7 +21,7 @@ export default function ResumeCard() {
             </section>
 
             <section className="mb-5">
-                <h2 className="h3 text-focus mb-3">Skills</h2>
+                <h2 className="h3 text-highlight mb-3">Skills</h2>
                 <div className="d-flex justify-content-center">
                     <div className="row">
                         <div className="col-md-4">
@@ -51,7 +51,7 @@ export default function ResumeCard() {
             </section>
 
             <section className="mb-5">
-                <h2 className="h3 text-focus mb-3">Experience</h2>
+                <h2 className="h3 text-highlight mb-3">Experience</h2>
                 <div>
                     <h3 className="h5">Software Development Boot Camp</h3>
                     <p className="text-muted">Aug 2024- Feb 2025</p>
@@ -66,7 +66,7 @@ export default function ResumeCard() {
             </section>
 
             <section className="mb-5">
-                <h2 className="h3 text-focus mb-3">Education</h2>
+                <h2 className="h3 text-highlight mb-3">Education</h2>
                 <div>
                     <h3 className="h5">Bachelor of Science in Chemistry</h3>
                     <p className="text-muted">University of Utah, 2016-2021</p>

@@ -5,7 +5,7 @@
 
   --primary-color: #104547;
   --secondary-color: #C3DBC5;
-  --tertiary-color:  #6d64e4;
+  --tertiary-color:  #151147;
   --background-color: #E8DCB9;
   --text-color:  #4B5358;
   
@@ -31,7 +31,7 @@
   width: 100%;
   justify-content: space-between;
   background-color: var(--tertiary-color);
-  color: var(--text-color)
+  
 }
 
 .Name {
@@ -91,7 +91,11 @@ color: var(--text-color);
 }
 
 .text-focus {
-  color: var(--text-color);
+  color: var(--secondary-color);
+}
+
+.text-highlight {
+  color: var(--tertiary-color)
 }
 /* @media (prefers-color-scheme: light) {
   :root {
