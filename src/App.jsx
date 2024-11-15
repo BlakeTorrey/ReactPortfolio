@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <header className="Header navbar  border-bottom container-fluid">
+      <header className="Header navbar border-bottom container-fluid">
         <div className="row ">
           <div className="col">
             <Nav className="navbar-expand-lg" />

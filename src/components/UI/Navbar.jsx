@@ -5,7 +5,7 @@ export default function Nav({ links }) {
 
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <h2 className="navbar-brand">
+                <h2 className="navbar-brand text-focus">
                     Blake Torrey
                 </h2>
                 <div className="collapse navbar-collapse text-focus" id="navbarNav">
