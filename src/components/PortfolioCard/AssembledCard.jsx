@@ -7,21 +7,21 @@ const PortfolioObjects = [
         id: 1,
         title: "ReadMe Generator",
         description: "Generates a ReadMe for projects based on only a couple questions.",
-        image: "/src/components/Images/ReadMeGenerator.png",
+        image: "/public/Images/ReadMeGenerator.png",
         github: 'https://github.com/BlakeTorrey/ReadMe-Generator'
     },
     {
         id: 2,
         title: 'Destination Weather',
         description: 'This page allows one to search a variety of cities and it will pull up the current weather, as well as a five day forecast.',
-        image: '/src/components/Images/WeatherDashboard.png',
+        image: '/public/Images/WeatherDashboard.png',
         github: 'https://github.com/BlakeTorrey/OpenWeatherApi',
     },
     {
         id: 3,
         title: 'Organizability',
         description: 'This application allows for people to add notes/tasks to a dashboard that keeps track of its urgency.',
-        image: '/src/components/Images/NoteDashboard.png',
+        image: '/public/Images/NoteDashboard.png',
         github: 'https://github.com/samvs-tech/Organizability',
     },
 ];
