@@ -67,7 +67,7 @@ export default function Contact() {
                         </label>
                     </div>
 
-                    <button type="submit" className="btn btn-primary">Send!</button>
+                    <button type="submit" className="btn btn-primary ">Send!</button>
                 </form>
             </div>
         </section>
