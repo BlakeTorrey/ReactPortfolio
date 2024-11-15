@@ -6,7 +6,7 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App';
 import ErrorPage from './components/pages/ErrorPage';
-import AboutPage from './components/pages/aboutme';
+import AboutPage from '/src/components/pages/Aboutme.jsx';
 import PortfolioPage from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
