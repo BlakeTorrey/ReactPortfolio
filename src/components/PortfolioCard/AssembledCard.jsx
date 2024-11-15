@@ -12,17 +12,17 @@ const PortfolioObjects = [
     },
     {
         id: 2,
-        title: '',
-        description: '',
-        image: '',
-        github: '',
+        title: 'Destination Weather',
+        description: 'This page allows one to search a variety of cities and it will pull up the current weather, as well as a five day forecast.',
+        image: '/src/components/Images/WeatherDashboard.png',
+        github: 'https://github.com/BlakeTorrey/OpenWeatherApi',
     },
     {
         id: 3,
-        title: '',
-        description: '',
-        image: '',
-        github: '',
+        title: 'Organizability',
+        description: 'This application allows for people to add notes/tasks to a dashboard that keeps track of its urgency.',
+        image: '/src/components/Images/NoteDashboard.png',
+        github: 'https://github.com/samvs-tech/Organizability',
     },
 ];
 
