@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4 text-center mb-4 mb-md-0">
-              <img src={''} alt="Profile" className="img-fluid rounded-circle shadow-sm" style={{ width: "150px", height: "150px" }} />
+              <img src={'/src/components/Images/portrait.jpg'} alt="Profile" className="img-fluid rounded-circle shadow-sm" style={{ width: "250px", height: "250px" }} />
             </div>
             <div className="col-md-8">
               <h1 className="mb-3">A little about me</h1>
@@ -30,10 +30,10 @@ export default function AboutPage() {
 
         <div className='row mt-5'>
             <div className="col-6 text-center">
-                <img src={''} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "200px" }} />
+                <img src={'/src/components/Images/CreekPhoto.jpeg'} alt='creek photo' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "600px" }} />
             </div>
             <div className="col-6 text-center">
-                <img src={''} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "200px" }} />
+                <img src={'/src/components/Images/RocknRollHalf.jpg'} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "500px", maxHeight: "300", objectFit: "cover" }} />
             </div>
         </div>
 
