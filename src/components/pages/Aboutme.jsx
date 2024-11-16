@@ -30,10 +30,10 @@ export default function AboutPage() {
 
       <div className='row mt-5'>
         <div className="col-6 text-center">
-          <img src={'/dist/Images/CreekPhoto.jpeg'} alt='creek photo' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "575px", maxHeight: "400px", objectFit: "cover" }} />
+          <img src={'/Images/CreekPhoto.jpeg'} alt='creek photo' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "575px", maxHeight: "400px", objectFit: "cover" }} />
         </div>
         <div className="col-6 text-center">
-          <img src={'/public/Images/RocknRollHalf.jpg'} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "500px", maxHeight: "400px", objectFit: "cover" }} />
+          <img src={'/Images/RocknRollHalf.jpg'} alt='' className="img-fluid rounded shadow-sm" style={{ width: "100%", maxWidth: "500px", maxHeight: "400px", objectFit: "cover" }} />
         </div>
       </div>
 
