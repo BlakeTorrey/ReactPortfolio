@@ -6,8 +6,8 @@ This project was developed using React and javascript to create a responsive por
 display a short summary about me, a portfolio page that links to some of the github projects that I have worked on, and a page to contact me and my resume.
 
 ## Screenshots
-![screenshotopeningpage](.src/assets/ReadMeImages/aboutme.png)
-![screenshotportfoliopage](.src//assets/ReadMeImages/portfolio.png)
+![screenshotopeningpage](./src/assets/ReadMeImages/aboutme.png)
+![screenshotportfoliopage](./src//assets/ReadMeImages/portfolio.png)
 The two images above are taken from the website for showcasing.
 
 ## link
